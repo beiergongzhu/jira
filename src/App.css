@@ -1,0 +1,12 @@
+/* em 是相对于父元素的font-size，而rem是相对于根元素 html 的 font-size */
+html {
+  /* 16 × 62.5% = 10，即在项目中，1 rem = 10 px */
+  font-size: 62.5%;
+}
+
+html,
+body,
+#root,
+.App {
+  min-height: 100vh;
+}
